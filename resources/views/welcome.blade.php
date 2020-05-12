@@ -19,6 +19,7 @@
         <link href="css/styles.css" rel="stylesheet" />
         {{-- Sweet Alert --}}
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        <script data-ad-client="ca-pub-6477437543223676" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
