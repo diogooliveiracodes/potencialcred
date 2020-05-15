@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        {{-- GOOGLE --}}
+        <meta name="google-site-verification" content="3d6UxvAO6n97CfVEb76zq5B3r7c2Vz1EuexVxeFzPVw" />
+
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
