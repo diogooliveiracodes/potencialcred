@@ -173,7 +173,7 @@
                                 <input class="form-control" id="email" name="email" type="email" placeholder="Seu Email *" required="required" data-validation-required-message="Please enter your email address." />
                             </div>
                             <div class="form-group mb-md-0">
-                                <input class="form-control" id="phone" name="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number." />
+                                <input class="form-control" id="phone" name="phone" type="tel" placeholder="Seu Telefone *" required="required" data-validation-required-message="Please enter your phone number." />
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -231,79 +231,45 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i" crossorigin="anonymous"></script>
-
+        
+        <a class="fixada btn-floating btn-sm rgba-white-slight mx-1" href="https://wa.me/553198112141">
+            <i class="fab fa-7x fa-whatsapp" style="color:#25d366"></i>
+        </a>
+        <style scoped>
+            .fixada {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            
+            
+            }
+        </style>
 
 
         <script>
-        $(function(){
-            $('form[name="contactForm"]').submit(function(event){
-                event.preventDefault();
-                    Swal.fire({
-                    icon: 'success',
-                    title: 'Obrigado!',
-                    text: 'Recebemos a sua solicitação de orçamento!',
+            $(function(){
+                $('form[name="contactForm"]').submit(function(event){
+                    event.preventDefault();
+                        Swal.fire({
+                        icon: 'success',
+                        title: 'Obrigado!',
+                        text: 'Recebemos a sua solicitação de orçamento!',
+                        })
+
+                    $.ajax({
+                        url: "https://www.snapdev.com.br/api/orcamento",
+                        type: "post",
+                        data: $(this).serialize(),
+                        dataType: "json",
+                        success: function(response){
+                            console.log(response)
+                            document.getElementById("contactForm").reset();
+                        }
                     })
+                });
+            })
 
-                $.ajax({
-                    url: "https://www.snapdev.com.br/api/orcamento",
-                    type: "post",
-                    data: $(this).serialize(),
-                    dataType: "json",
-                    success: function(response){
-                        console.log(response)
-                        document.getElementById("contactForm").reset();
-                    }
-                })
-            });
-        })
-
-
-
-
-
-
-            // var name = document.getElementById('name');
-            // var email = document.getElementById('email');
-            // var phone = document.getElementById('phone');
-            // var message = document.getElementById('message');
-
-            // function alerta(event) {
-            //     event.preventDefault();
-            //     Swal.fire({
-            //         icon: 'success',
-            //         title: 'Obrigado!',
-            //         text: 'Recebemos a sua solicitação de orçamento!',
-            //         timer: 8000,
-            //     })
-            // }
-
-
-
-
-
-
-
-            // $('#contactForm').submit( function(ev) {
-            //     ev.preventDefault();
-            //     Swal.fire({
-            //         icon: 'success',
-            //         title: 'Obrigado!',
-            //         text: 'Recebemos a sua solicitação de orçamento!',
-            //         timer: 8000,
-            //     })
-            //     $(this).unbind('submit').submit()
-            // });
-
-            // function alerta(event) {
-            //     event.preventDefault();
-            //     Swal.fire({
-            //         icon: 'success',
-            //         title: 'Obrigado!',
-            //         text: 'Recebemos a sua solicitação de orçamento!',
-            //         timer: 8000,
-            //     })
-            // }
-    </script>
+        </script>
 
     </body>
 </html>
