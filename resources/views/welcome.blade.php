@@ -23,6 +23,16 @@
         {{-- Sweet Alert --}}
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
         <script data-ad-client="ca-pub-6477437543223676" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168368641-1">
+        </script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-168368641-1');
+        </script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
