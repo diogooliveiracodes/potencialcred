@@ -242,7 +242,7 @@
         <script src="js/scripts.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i" crossorigin="anonymous"></script>
         
-        <a class="fixada btn-floating btn-sm rgba-white-slight mx-1" href="https://wa.me/5531996695358">
+        <a class="fixada btn-floating btn-sm rgba-white-slight mx-1" href="https://wa.me/5531991781719">
             <i class="fab fa-7x fa-whatsapp" style="color:#25d366"></i>
         </a>
         <style scoped>
