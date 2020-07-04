@@ -242,7 +242,7 @@
         <script src="js/scripts.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i" crossorigin="anonymous"></script>
         
-        <a class="fixada btn-floating btn-sm rgba-white-slight m-4" href="https://wa.me/5531991781719">
+        <a class="fixada btn-floating btn-sm rgba-white-slight mx-4" href="https://wa.me/5531991781719">
             <img src="./img/whatsapp.png" height="70px" alt="">
         </a>
         <style scoped>
@@ -257,6 +257,12 @@
 
 
         <script>
+            $( document ).ready(function() {
+                $('.fixada').hide();
+                $('.fixada').slideToggle(2200)
+            });
+
+
             $(function(){
                 $('form[name="contactForm"]').submit(function(event){
                     event.preventDefault();
