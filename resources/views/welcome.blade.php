@@ -8,9 +8,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>snapdev</title>
+        <title>Potencial - Serviços Financeiros</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="img/logo2.png" />
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -20,6 +20,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/app.css" />
         {{-- Sweet Alert --}}
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
         <script data-ad-client="ca-pub-6477437543223676" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -38,13 +39,13 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top"> <img src="/img/logo.png" alt="" style="height: 40px"> </a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">POTENCIAL</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
 
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#garantias">Garantias</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#servicos">Serviços</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{route('quemsomos')}}">Quem Somos</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contato">Contato</a></li>
                     </ul>
                 </div>
             </div>
@@ -52,185 +53,656 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container h-100">
-                <div class="row h-100 align-items-center justify-content-center text-center">
+                <div class="row align-items-center justify-content-center text-center">
                     <div class="col-lg-10 align-self-end">
-                        <h1 class="text-uppercase text-white font-weight-bold">Criação de sites que geram resultados</h1>
-                        <hr class="divider my-4" />
+                        <h1 class="text-uppercase text-white font-weight-bold" id="h1-masthead">
+                            <img id="img-desktop" class="p-0 m-0 d-none" src="../images/logo.png" alt="" style="height: 20rem">
+                            <img id="img-mobile" class="p-0 m-0 d-none" src="../images/logo.png" alt="" style="height: 150px">
+                        </h1>
+                        <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">Criar um site é essencial para que a sua empresa ganhe mais visibilidade e conquiste um número maior de clientes para o seu negócio.</p>
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#garantias">Saiba Mais</a>
+                        <p class="text-white-75 font-weight-light mb-5" id="p-masthead" style="font-size: 1.5rem">Garantimos as melhores taxas do mercado</p>
+                        <a class="btn btn-danger btn-xl js-scroll-trigger" href="#produtos" id="b-masthead">Conheça nossos produtos</a>
                     </div>
                 </div>
             </div>
         </header>
         <!-- About-->
 
-<div style="display: none">
-    #CRIAÇÃO DE SITES QUE GERAM RESULTADOS #sistema de gestão #sistema ERP #SEO #criar site #criar site Sete Lagoas #criar site Pará de Minas #criar site Divinópolis #criar site Araxá #criar site Contagem #criar site Belo Horizonte #criar BH #criar site #criar site Betim #criar site Contagem #criar site Itaúna #comércio eletrônico #comércio eletrônico em Sete Lagoas #comércio eletrônico em Pará de Minas # comércio eletrônico em Divinópolis # comércio eletrônico em Araxá # comércio eletrônico em Contagem # comércio eletrônico em Belo Horizonte # comércio eletrônico em BH # comércio eletrônico em Betim # comércio eletrônico em Contagem # comércio eletrônico em Itaúna #marketing digital #marketing digital Sete Lagoas # marketing digital Pará de Minas # marketing digital Divinópolis # marketing digital site Araxá # marketing digital Contagem # marketing digital Belo Horizonte # marketing digital BH # marketing digital criar site # marketing digital Betim #marketing digital Contagem # marketing digital Itaúna # Gestão de redes sociais # Gestão de redes sociais Sete Lagoas # Gestão de redes sociais Pará de Minas # Gestão de redes sociais Divinópolis # Gestão de redes sociais Araxá # Gestão de redes sociais Contagem # Gestão de redes sociais Belo Horizonte # Gestão de redes sociais BH # Gestão de redes sociais # Gestão de redes sociais Betim # Gestão de redes sociais Contagem # Gestão de redes sociais Itaúna #criação de site #criação de site Sete Lagoas # criação de site Pará de Minas # criação de site Divinópolis # criação de site Araxá # criação de site Contagem # criação de site Belo Horizonte # criação de site BH # criação de site # criação de site Betim # criação de site Contagem # criação de site Itaúna #site profissional #site profissional Sete Lagoas # site profissional Pará de Minas # site profissional Divinópolis # site profissional Araxá # site profissional Contagem # site profissional Belo Horizonte # site profissional BH # site profissional # site profissional Betim # site profissional Contagem # site profissional Itaúna # montagem de site # montagem de site Sete Lagoas # montagem de site Pará de Minas  # montagem de site Divinópolis # montagem de site Araxá # montagem de site Contagem # montagem de site Belo Horizonte # montagem de site Betim # montagem de site Contagem # montagem de site Itaúna #construção de site #construção de site Sete Lagoas #construção de site Pará de Minas #construção de site Divinópolis #construção de site Araxá #construção de site Contagem #construção de site Belo Horizonte #construção de site Betim #construção de site Contagem #construção de site Itaúna #hospedagem de site #hospedagem de site Sete Lagoas #hospedagem de site Pará de Minas #hospedagem de site Divinópolis #hospedagem de site Araxá #hospedagem de site Contagem #hospedagem de site Belo Horizonte #hospedagem de site Betim #hospedagem de site Contagem #hospedagem de site Itaúna #registro de domínio #registro de domínio Sete Lagoas #registro de domínio Pará de Minas #registro de domínio Divinópolis #registro de domínio Araxá #registro de domínio Contagem #registro de domínio Belo Horizonte #registro de domínio Betim #registro de domínio Contagem #registro de domínio Itaúna #internet site #internet site Sete Lagoas #internet site Pará de Minas #internet site Divinópolis #internet site Araxá #internet site Contagem #internet site Belo Horizonte #internet site Betim #internet site Contagem #internet site Itaúna #site #site Sete Lagoas #site Pará de Minas #site Divinópolis #site Araxá #site Contagem #site Belo Horizonte #site Betim #site Contagem #site Itaúna #loja virtual #loja virtual Sete Lagoas #loja virtual Pará de Minas #loja virtual Divinópolis #loja virtual Araxá #loja virtual Contagem #loja virtual Belo Horizonte #loja virtual Betim #loja virtual Contagem #loja virtual Itaúna #vender on-line #vender on-line Sete Lagoas #vender on-line Pará de Minas #vender on-line Divinópolis #vender on-line Araxá #vender on-line Contagem #vender on-line Belo Horizonte #vender on-line Betim #vender on-line Contagem #vender on-line Itaúna #gestão de sites #gestão de sites Sete Lagoas #gestão de sites Pará de Minas #gestão de sites Divinópolis #gestão de sites Araxá #gestão de sites Contagem #gestão de sites Belo Horizonte #gestão de sites Betim #gestão de sites Contagem #gestão de sites Itaúna #criar site Lagoa da Prata #comércio eletrônico Lagoa da Prata #marketing digital Lagoa da Prata #gestão de sites Lagoa da Prata #vender on-line Lagoa da Prata #loja virtual Lagoa da Prata #site Lagoa da Prata #registro de domínio Lagoa da Prata #hospedagem de site Lagoa da Prata #construção de site Lagoa da Prata # montagem de site Lagoa da Prata # site profissional Lagoa da Prata #e-commerce #e-commerce Sete Lagoas #e-commerce Pará de Minas #e-commerce Divinópolis #e-commerce Araxá #e-commerce Contagem #e-commerce Belo Horizonte #e-commerce BH #e-commerce #e-commerce Betim #e-commerce Contagem #e-commerce Itaúna #e-commerce Lagoa da Prata
-</div>
 
 
-        <!-- garantias-->
-        <section class="page-section" id="garantias">
-            <div class="container">
-                <h2 class="text-center mt-0">Garantias</h2>
-                <hr class="divider my-4" />
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-dollar-sign text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Resultados</h3>
-                            <p class="text-muted mb-0">Projetamos seu site para transformar visitantes em clientes.</p>
+
+<!-- produtos-->
+<section class="page-section d-none bg-danger py-5" id="produtos">
+    <div class="container">
+        <h2 class="text-center text-white mt-0">Dinheiro na conta sem sair de casa</h2>
+        <hr class="divider border-white mt-4 mb-5"/>
+        <div class="row justify-content-center mx-0 px-0 text-muted ">
+            <div class="col-sm-3 mt-5">
+                <div class="row justify-content-center">
+                    <i class="fas fa-4x text-white fa-shield-alt"></i>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <h4 class="text-white">SEGUROS</h4>
+                </div>
+            </div>
+            <div class="col-sm-3 mt-5">
+                <div class="row justify-content-center">
+                    <i class="fas fa-4x text-white fa-money-check-alt"></i>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <h4 class="text-white">FINANCIAMENTO</h4>
+                </div>
+            </div>
+            <div class="col-sm-3 mt-5">
+                <div class="row justify-content-center">
+                    <i class="fas fa-4x text-white fa-coins"></i>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <h4 class="text-white">CRÉDITO</h4>
+                </div>
+            </div>
+            <div class="col-sm-3 mt-5">
+                <div class="row justify-content-center">
+                    <i class="fas fa-4x text-white fa-handshake"></i>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <h4 class="text-white">CORRETORA</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mx-0 px-0 pb-5">
+            <div class="col-sm-3 mt-5">
+                <div class="row justify-content-center">
+                    <i class="fas fa-4x text-white fa-car"></i>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <h4 class="text-white">PROTEÇÃO</h4>
+                </div>
+                <div class="row justify-content-center">
+                    <h4 class="text-white">VEICULAR</h4>
+                </div>
+            </div>
+            <div class="col-sm-3 mt-5">
+                <div class="row justify-content-center">
+                    <i class="fas fa-4x text-white fa-comments-dollar"></i>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <h4 class="text-white">EMPRÉSTIMO<br> CONSIGNADO</h4>
+                </div>
+            </div>
+            <div class="col-sm-3 mt-5">
+                <div class="row justify-content-center">
+                    <i class="fas fa-4x text-white fa-globe"></i>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <h4 class="text-white">SOLUÇÕES</h4>
+                </div>
+                <div class="row justify-content-center mt-0">
+                    <h4 class="text-white">CORPORATIVAS</h4>
+                </div>
+            </div>
+            <div class="col-sm-3 mt-5">
+                <div class="row justify-content-center">
+                    <i class="fas fa-4x text-white fa-chart-line"></i>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <h4 class="text-white">INVESTIMENTO</h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>  
+
+
+<!-- produtos mobile-->
+<section class="page-section bg-danger py-5 d-none" id="produtos-mobile">
+    <div class="">
+        <h2 class="text-center text-white mt-0">Dinheiro na conta sem sair de casa.</h2>
+        <hr class="divider border-white mt-4 mb-2"/>
+        <div class="row justify-content-center mx-0 px-0 text-muted ">
+            <div class="row">
+                <div class="col">
+                    <div class="col-sm-3 mt-5">
+                        <div class="row justify-content-center">
+                            <i class="fas fa-4x text-white fa-shield-alt"></i>
+                        </div>
+                        <div class="row justify-content-center mt-3">
+                            <h4 class="text-white">SEGUROS</h4>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-mobile text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Responsividade</h3>
-                            <p class="text-muted mb-0">Garantimos a melhor experiência para usuários de smartphones.</p>
+                </div>
+                <div class="col">
+                    <div class="col-sm-3 mt-5">
+                        <div class="row justify-content-center">
+                            <i class="fas fa-4x text-white fa-money-check-alt"></i>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Visibilidade</h3>
-                            <p class="text-muted mb-0">Aplicamos técnicas modernas para manter você no topo das pesquisas.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-lock text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Segurança</h3>
-                            <p class="text-muted mb-0">Fornecemos mecanismos de defesa contra ataques maliciosos.</p>
+                        <div class="row justify-content-center mt-3">
+                            <h4 class="text-white">FINANCIAMENTO</h4>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+            <div class="row">
+                <div class="col">
+                    <div class="col-sm-3 mt-5">
+                        <div class="row justify-content-center">
+                            <i class="fas fa-4x text-white fa-comments-dollar"></i>
+                        </div>
+                        <div class="row justify-content-center mt-3">
+                            <h4 class="text-white">EMPRÉSTIMO<br> CONSIGNADO</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col-sm-3 mt-5">
+                        <div class="row justify-content-center">
+                            <i class="fas fa-4x text-white fa-handshake"></i>
+                        </div>
+                        <div class="row justify-content-center mt-3">
+                            <h4 class="text-white">CORRETORA</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="col-sm-3 mt-5">
+                        <div class="row justify-content-center">
+                            <i class="fas fa-4x text-white fa-car"></i>
+                        </div>
+                        <div class="row justify-content-center mt-3">
+                            <h4 class="text-white">PROTEÇÃO</h4>
+                        </div>
+                        <div class="row justify-content-center">
+                            <h4 class="text-white">VEICULAR</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col-sm-3 mt-5">
+                        <div class="row justify-content-center">
+                            <i class="fas fa-4x text-white fa-chart-line"></i>
+                        </div>
+                        <div class="row justify-content-center mt-3">
+                            <h4 class="text-white">INVESTIMENTO</h4>
+                        </div>
 
- <!-- Serviços-->
- <section class="page-section" id="servicos" style="background-color: #2c3e50;">
-    <div class="container">
-        <div class="text-center pb-5">
-            <h2 class="section-heading text-uppercase text-white">Serviços</h2>
-            <h4 class="section-subheading" style="color:#C0C0C0">Descubra como podemos potencializar o seu negócio</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="col-sm-3 mt-5">
+                        <div class="row justify-content-center">
+                            <i class="fas fa-4x text-white fa-globe"></i>
+                        </div>
+                        <div class="row justify-content-center mt-3">
+                            <h4 class="text-white">SOLUÇÕES</h4>
+                        </div>
+                        <div class="row justify-content-center mt-0">
+                            <h4 class="text-white">CORPORATIVAS</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col-sm-3 mt-5">
+                        <div class="row justify-content-center">
+                            <i class="fas fa-4x text-white fa-coins px-2"></i>
+                        </div>
+                        <div class="row justify-content-center mt-3">
+                            <h4 class="text-white">CRÉDITO</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>                    
         </div>
-        <ul class="timeline">
-            <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="" /></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-
-                        <h4 class="subheading text-white">Análise de requisitos</h4>
-                    </div>
-                    <div class="timeline-body"><p style="color:#C0C0C0">Nossa equipe de analistas faz uma entrevista para entender todas as funcionalidades que você quer disponibilizar em seu site. </p></div>
-                </div>
-            </li>
-            <li class="timeline-inverted">
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="" /></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-
-                        <h4 class="subheading text-white">Criação de arte</h4>
-                    </div>
-                    <div class="timeline-body"><p style="color:#C0C0C0">Nesta etapa nós criamos todas as artes necessárias para a divulgação do seu negócio. Se já possui todo o seu conteúdo digital, podemos reutilizá-lo. </p></div>
-                </div>
-            </li>
-            <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="" /></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4 class="subheading text-white">Desenvolvimento do site</h4>
-                    </div>
-                    <div class="timeline-body"><p style="color:#C0C0C0">Utilizamos as tecnologias mais modernas para o desenvolvimento web. Com o auxílio de Frameworks de última geração, garantimos uma perfeita padronização de código e rápida entrega.  <p></div>
-                </div>
-            </li>
-            <li class="timeline-inverted">
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="" /></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4 class="subheading text-white">Publicação</h4>
-                    </div>
-                    <div class="timeline-body"><p style="color:#C0C0C0">Registramos o seu domínio e hospedamos seu site nas melhores plataformas online. Assim garantimos o melhor desempenho e que seu serviço esteja sempre disponível na internet.</p></div>
-                </div>
-            </li>
-        </ul>
     </div>
+</section>  
+
+
+{{-- parceiros desktop --}}
+
+<section class="page-section py-4 my-4 d-none" id="parceiros-desktop">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+            <h2 class="mt-0">Parceiros</h2>
+            <hr class="divider my-4" />
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-1">
+            <img src="../images/bancobmg.png" width="100%" alt="">
+        </div>
+        <div class="col-sm-1">
+            <img src="../images/bancodaycoval.png" width="100%" alt="">
+        </div>
+        <div class="col-sm-1">
+            <img src="../images/bancopan.png" width="100%" alt="">
+        </div>
+        <div class="col-sm-1">
+            <img src="../images/bancosafra.png" width="100%" alt="">
+        </div>
+        <div class="col-sm-1">
+            <img src="../images/bradesco.png" width="100%" alt="">
+        </div>
+        <div class="col-sm-1">
+            <img src="../images/bvfinanceira.png" width="100%" alt="">
+        </div>
+        <div class="col-sm-1">
+            <img src="../images/ccb.png" width="100%" alt="">
+        </div>
+        <div class="col-sm-1">
+            <img src="../images/icatu.png" width="100%" alt="">
+        </div>
+        <div class="col-sm-1">
+            <img src="../images/itau.png" width="100%" alt="">
+        </div>
+        <div class="col-sm-1">
+            <img src="../images/ole.png" width="100%" alt="">
+        </div>
+        <div class="col-sm-1">
+            <img src="../images/portoseguro.png" width="100%" alt="">
+        </div>
+    </div>
+</section>
+
+{{-- parceiros mobile --}}
+<section class="page-section py-4 my-4 d-none" id="parceiros-mobile">
+    <div class="row justify-content-center mb-3 px-0 mx-0">
+        <div class="col-lg-8 text-center">
+            <h2 class="mt-0">Parceiros</h2>
+        </div>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide mx-0 px-0" data-ride="carousel">
+        <ol class="carousel-indicators color-dark">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row justify-content-between px-5">
+                    <img src="../images/bancobmg.png" height="50rem" alt="">
+                    <img src="../images/bancodaycoval.png" alt="" height="50rem">
+                    <img src="../images/bancopan.png" alt="" height="50rem">
+                </div>
+            </div>
+            <div class="carousel-item">
+            <div class="row justify-content-between px-5">
+                <img src="../images/bancosafra.png" height="50rem" alt="">
+                <img src="../images/ccb.png" height="50rem" alt="">
+                <img src="../images/bancopan.png" height="50rem" alt="">
+            </div>
+            </div>
+            <div class="carousel-item">
+            <div class="row justify-content-between px-5">
+                <img src="../images/bvfinanceira.png" height="50rem" alt="">
+                <img src="../images/portoseguro.png" height="50rem" alt="">
+
+
+                <img src="../images/icatu.png" height="50rem" alt="">
+            </div>
+            </div>
+            <div class="carousel-item">
+            <div class="row justify-content-center px-5">
+                <img class="px-2" src="../images/ole.png" height="50rem" alt="">
+                <img src="../images/bradesco.png" height="50rem" alt="">
+
+            </div>
+            </div>
+
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        </div>
 </section>
 
 
 
-
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="mt-0">Vamos falar sobre o seu projeto?</h2>
-                        <hr class="divider my-4" />
-                    </div>
-                </div>
-                {{-- onsubmit="alerta(event)" --}}
-                <form id="contactForm" name="contactForm">
-                    @csrf
-                    <div class="row align-items-stretch mb-4">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input class="form-control" id="name" name="name" type="text" placeholder="Seu Nome *" required="required"/>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" id="email" name="email" type="email" placeholder="Seu Email *" required="required" data-validation-required-message="Please enter your email address." />
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <input class="form-control" id="phone" name="phone" type="tel" placeholder="Seu Telefone *" required="required" data-validation-required-message="Please enter your phone number." />
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <textarea class="form-control" id="message" name="message" placeholder="Sua Mensagem *" rows="6" required="required"></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center">
-                        <div id="success"></div>
-                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Solicitar Orçamento</button>
-                    </div>
-                </form>
-
-                <hr class='mt-5'>
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 text-center pt-2 mt-2">
-                        <h2 class="mt-0">Onde nos encontrar?</h2>
-                        <hr class="divider my-4" />
-                    </div>
-                </div>
-
-                <div class='text-center' id="socialmedia">
-                    <a href="http://www.facebook.com/snapdevsocial"> <i class="fab fa-4x fa-facebook" style="color: #007bff"></i></a>
-                    <a href="http://www.instagram.com/snapdev"  class="px-4"><img src="/img/insta.png" width="64px" height="64px"  style="vertical-align: top"></a>
-                    <a href="http://www.github.com/snapdev"> <i class="fab fa-4x fa-github" style="color: #343a40"></i></a>
-                </div>
-
-
-            </div>
-        </section>
-
-
-        <div class="pt-4 pb-4 px-0 mx-0" style="padding-bottom: 0px; background-color: #2c3e50;">
-            <div class="row m-0 p-0">
-                <div class="col text-center">
-                    <i class="fas fa-phone fa-3x mb-3 text-white"></i>
-                    <div style="font-size: 0.8rem"><a class='text-white' href="tel:3131767777">(31) 3176-7777</a> </div>
-                </div>
-                <div class="col text-center">
-                    <i class="fas fa-envelope fa-3x mb-3 text-white"></i
-                    ><a class="d-block text-white" href="mailto:contato@snapdev.com.br" style="font-size: 0.8rem">contato@snapdev.com.br</a>
-                </div>
+<!-- Contact-->
+<section class="page-section py-4 my-4" id="contato">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="mt-0">Faça sua cotação sem compromisso</h2>
+                <hr class="divider my-4" />
             </div>
         </div>
+        
+        <form id="contactForm" name="contactForm">
+            @csrf
+            <div class="row align-items-stretch mb-4">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control" id="name" name="name" type="text" placeholder="Seu Nome *" required="required"/>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="email" name="email" type="email" placeholder="Seu Email *" required="required" data-validation-required-message="Please enter your email address." />
+                    </div>
+                    <div class="form-group mb-md-0">
+                        <input class="form-control" id="phone" name="phone" type="tel" placeholder="Seu Telefone *" required="required" data-validation-required-message="Please enter your phone number." />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group form-group-textarea mb-md-0">
+                        <textarea class="form-control" id="message" name="message" placeholder="Sua Mensagem *" rows="6" required="required"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <div id="success"></div>
+                <button class="btn btn-danger btn-xl text-uppercase" id="sendMessageButton" type="submit">Solicitar Orçamento</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+
         <!-- Footer-->
-        <footer class="pt-4 pb-2" style="background-color: #1a252f"><p class="small text-center text-muted" >Copyright © 2020 - Snapdev</p></footer>
+        <footer class="page-footer font-small mdb-color pt-4 bg-dark text-white" style="border-top:1px solid rgb(224, 224, 224)">
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left">
+            
+                <!-- Footer links -->
+                <div class="row text-center text-md-left mt-3 pb-3">
+            
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 d-none" id="contatofooterweb">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
+                        <p>
+                        <i class="fas fa-home mr-3"></i> Rua Guajajaras nº 910, sala 403, Centro - Belo Horizonte</p>
+                    
+                        <p>
+                            <a href="mailto:contato@potencialcred.com.br" style="color:white"> <i class="fas fa-envelope mr-3" ></i>contato@potencialcred.com.br</a>
+                        </p>
+                        <p>
+                            <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31) 4003 4000</a>
+                        </p>
+                        <div class="text-white mt-5" >
+                            <a class="text-white" href="https://www.facebook.com/rodrigo.pachecoalmeida.39"><i class="fab fa-4x fa-facebook-square pr-3"></i></a> 
+                            <a class="text-white" href="https://www.instagram.com/potencialservicosfinanceiros/"><i class="fab fa-4x fa-instagram pr-3"></i></a> 
+                        </div>
+        
+                    </div>
+                    <!-- Grid column -->
+                
+                    <hr class="w-100 clearfix d-md-none">
+                
+                    <!-- Grid column -->
+                    <div class="col-md-8 col-lg-8 col-xl-8 mx-auto mt-3 text-left">
+                        
+                        <h6 class="text-uppercase mb-4 font-weight-bold pl-2">Produtos</h6>
+        
+                        <div class="accordion text-white" id="accordionExample">
+                            {{-- CARD --}}
+                            <div class="card card-footer bg-dark p-0" style="border-bottom: 1px solid rgb(149, 148, 148);">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                <button id="btn1" style="box-shadow: none;" class="btn btn-block btn-footer text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Empréstimo Consignado Público – Governo e Prefeitura
+                                </button>
+                                </h2>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <ul>
+                                        <li>Aposentados </li>
+                                        <li>Pensionistas do INSS</li>
+                                        <li>Funcionários Públicos</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </div>
+                            {{-- CARD 2--}}
+                            <div class="card card-footer bg-dark p-0" style="border-bottom: 1px solid rgb(149, 148, 148);">
+                                <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button style="box-shadow: none;" class="btn btn-block btn-footer text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                        Empréstimo Consignado para empresa privada 
+                                    </button>
+                                </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <ul>
+                                        <li>
+                                            Facilidade para os colaboradores organizarem a vida financeira ou realizar planos. Nós 
+                                            temos opções de crédito para oferecer. Uma delas pode ser a solução para o que você 
+                                            precisa. 
+                                        </li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+                            {{-- CARD 3--}}
+                            <div class="card card-footer bg-dark p-0" style="border-bottom: 1px solid rgb(149, 148, 148);">
+                                <div class="card-header" id="heading3">
+                                <h2 class="mb-0">
+                                    <button style="box-shadow: none;" class="btn btn-block btn-footer text-left" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                        Crédito  
+                                    </button>
+                                </h2>
+                                </div>
+                                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <ul>
+                                        <li>Crédito pessoal</li>
+                                        <li>Crédito empresarial</li>
+                                        <li>Crédito com imóvel em garantia</li>
+                                        <li>Crédito com veículo em garantia </li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+                            {{-- CARD 4--}}
+                            <div class="card card-footer bg-dark p-0" style="border-bottom: 1px solid rgb(149, 148, 148);">
+                                <div class="card-header" id="heading4">
+                                    <h2 class="mb-0">
+                                    <button style="box-shadow: none;" class="btn btn-block btn-footer text-left" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                                        Seguro de Vida 
+                                    </button>
+                                    </h2>
+                                </div>
+                                <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><strong>Para você</strong> proteger o que é mais importante. Seguros de Vida para 
+                                                garantir o seu bem-estar e de toda sua família ao longo dos anos de 
+                                                acordo com cada momento da sua vida.  
+                                                Temos planos personalizados para garantir segurança financeira de 
+                                                acordo com a real necessidade do cliente com as melhores 
+                                                coberturas e os melhores serviços do mercado. 
+                                            </li>
+                                            <br>
+                                            <li><strong>Para sua empresa</strong> contratar os melhores serviços e benefícios do 
+                                                mercado. Planos customizados para atrair e manter os melhores 
+                                                talentos. Oferecemos as melhores soluções de proteção e 
+                                                planejamento financeiro
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            {{-- CARD 5--}}
+                            <div class="card card-footer bg-dark p-0" style="border-bottom: 1px solid rgb(149, 148, 148);">
+                                <div class="card-header" id="heading5">
+                                    <h2 class="mb-0">
+                                    <button style="box-shadow: none;" class="btn btn-block btn-footer text-left" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                        Seguro Viagem 
+                                    </button>
+                                    </h2>
+                                </div>
+                                <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                Para planejar sua viagem com segurança e 
+                                                tranquilidade 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            {{-- CARD 6--}}
+                            <div class="card card-footer bg-dark p-0" style="border-bottom: 1px solid rgb(149, 148, 148);">
+                                <div class="card-header" id="heading6">
+                                    <h2 class="mb-0">
+                                    <button style="box-shadow: none;" class="btn btn-block btn-footer text-left" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                                        Seguros para Autônomos e profissionais Liberais
+                                    </button>
+                                    </h2>
+                                </div>
+                                <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                Garantias que 
+                                                permitem profissionais terem liberdade e segurança frente a imprevistos 
+                                                que os impeçam de exercer suas atividades. 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            {{-- CARD 7--}}
+                            <div class="card card-footer bg-dark p-0" style="border-bottom: 1px solid rgb(149, 148, 148);">
+                                <div class="card-header" id="heading7">
+                                    <h2 class="mb-0">
+                                    <button style="box-shadow: none;" class="btn btn-block btn-footer text-left" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="true" aria-controls="collapse7">
+                                        Gestão de Benefícios Corporativos
+                                    </button>
+                                    </h2>
+                                </div>
+                                <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                Para atrair e reter os melhores talentos 
+                                                possuímos Seguro de Vida em Grupo, Plano de Saúde e Odontológico, 
+                                                Seguro Estagiário dentre outros. 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            {{-- CARD 8--}}
+                            <div class="card card-footer bg-dark p-0" style="border-bottom: 1px solid rgb(149, 148, 148);">
+                                <div class="card-header" id="heading8">
+                                    <h2 class="mb-0">
+                                    <button style="box-shadow: none;" class="btn btn-block btn-footer text-left" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="true" aria-controls="collapse8">
+                                        Plano de Previdência
+                                    </button>
+                                    </h2>
+                                </div>
+                                <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                Comece a planejar e investir no seu futuro 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            {{-- CARD 9--}}
+                            <div class="card card-footer bg-dark p-0" style="border-bottom: 1px solid rgb(149, 148, 148);">
+                                <div class="card-header" id="heading9">
+                                    <h2 class="mb-0">
+                                    <button style="box-shadow: none;" class="btn btn-block btn-footer text-left" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="true" aria-controls="collapse9">
+                                        Investimentos
+                                    </button>
+                                    </h2>
+                                </div>
+                                <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                Aqui você encontra as melhores opções para investir 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            {{-- CARD 10--}}
+                            <div class="card card-footer bg-dark p-0" style="border-bottom: 1px solid rgb(149, 148, 148);">
+                                <div class="card-header" id="heading10">
+                                    <h2 class="mb-0">
+                                    <button style="box-shadow: none;" class="btn btn-block btn-footer text-left" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="true" aria-controls="collapse10">
+                                        Financiamentos
+                                    </button>
+                                    </h2>
+                                </div>
+                                <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                As melhores soluções para sua próxima conquista 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none">
+                
+                    <!-- Grid column -->
+                    <div class="col-md-12 col-lg-12 col-xl-12 mx-auto mt-3 d-none" id="contatofootermobile">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
+                        <p>
+                        <i class="fas fa-home mr-3"></i> Rua Guajajaras nº 910, sala 403, Centro - Belo Horizonte</p>
+                    
+                        <p>
+                            <a href="mailto:contato@kicell7.com.br" style="color:white"> <i class="fas fa-envelope mr-3" ></i>contato@potencialcred.com.br</a>
+                        </p>
+                        <p>
+                            <a href="tel:3198112141" style="color:white"><i class="fas fa-phone mr-3"></i>(31) 4003-4000</a>
+                        </p>
+                        <div class="text-white mt-2 mb-4" >
+                            <a class="text-white" href="https://www.facebook.com/rodrigo.pachecoalmeida.39"><i class="fab fa-4x fa-facebook-square pr-3"></i></a> 
+                            <a class="text-white" href="https://www.instagram.com/potencialservicosfinanceiros/"><i class="fab fa-4x fa-instagram pr-3"></i></a> 
+                        </div>
+        
+                    </div>
+                    <!-- Grid column -->
+        
+            
+                </div>
+                <!-- Footer links -->
+            
+            
+            </div>
+            <!-- Footer Links -->
+            
+            </footer>
+        </div>
+        <a class="fixada btn-floating btn-sm rgba-white-slight mx-0 px-0" href="https://wa.me/5531995958101">
+            <img src="./img/whatsapp.png" height="70px" alt="">
+            </a>
+            <style scoped>
+            .fixada {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            
+            
+            }
+            </style>
 
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -241,51 +713,6 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i" crossorigin="anonymous"></script>
-        
-        <a class="fixada btn-floating btn-sm rgba-white-slight mx-4" href="https://wa.me/5531991781719">
-            <img src="./img/whatsapp.png" height="70px" alt="">
-        </a>
-        <style scoped>
-            .fixada {
-            position: fixed;
-            bottom: 0;
-            right: 0;
-            
-            
-            }
-        </style>
-
-
-        <script>
-            $( document ).ready(function() {
-                $('.fixada').hide();
-                $('.fixada').slideToggle(2200)
-            });
-
-
-            $(function(){
-                $('form[name="contactForm"]').submit(function(event){
-                    event.preventDefault();
-                        Swal.fire({
-                        icon: 'success',
-                        title: 'Obrigado!',
-                        text: 'Recebemos a sua solicitação de orçamento!',
-                        })
-
-                    $.ajax({
-                        url: "https://www.snapdev.com.br/api/orcamento",
-                        type: "post",
-                        data: $(this).serialize(),
-                        dataType: "json",
-                        success: function(response){
-                            console.log(response)
-                            document.getElementById("contactForm").reset();
-                        }
-                    })
-                });
-            })
-
-        </script>
 
     </body>
 </html>

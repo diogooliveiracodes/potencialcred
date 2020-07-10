@@ -6,6 +6,31 @@
     (function($) {
   "use strict"; // Start of use strict
 
+  // Responsiving Data
+  if ( $(document).width() < 975 ) {
+    // MOBILE RESPONSIVE
+    $("#img-mobile").removeClass("d-none");
+    $("#produtos-mobile").removeClass("d-none");
+    $("#parceiros-mobile").removeClass("d-none");
+    $("#contatofootermobile").removeClass("d-none");
+  
+  }
+  else {
+    // DESKTOP RESPONSIVE
+    $("#img-desktop").removeClass("d-none");
+    $("#produtos").removeClass("d-none");
+    $("#parceiros-desktop").removeClass("d-none");
+    $("#contatofooterweb").removeClass("d-none");
+
+    // ANIMAÇÕES HEADER
+    $('#h1-masthead').hide();
+    $('#p-masthead').hide();
+    $('#b-masthead').hide();
+    $('#h1-masthead').show(2000);
+    $('#p-masthead').delay(2000).fadeIn(1500);
+    $('#b-masthead').delay(2500).fadeIn(1500);
+  }
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {

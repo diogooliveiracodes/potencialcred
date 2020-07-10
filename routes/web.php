@@ -18,7 +18,9 @@ Route::get('/', function () {
 })->name('welcome');
 
 
-
+Route::get('/quem-somos', function(){
+    return view ('quemsomos');
+})->name('quemsomos');
 
 
 
