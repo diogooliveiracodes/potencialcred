@@ -74,8 +74,8 @@
 
 
 <!-- produtos-->
-<section class="page-section d-none bg-danger py-5" id="produtos">
-    <div class="container">
+<section class="page-section bg-danger py-5" id="produtos">
+    <div class="container d-none" id="produtos-desktop">
         <h2 class="text-center text-white mt-0">Dinheiro na conta sem sair de casa</h2>
         <hr class="divider border-white mt-4 mb-5"/>
         <div class="row justify-content-center mx-0 px-0 text-muted ">
@@ -154,12 +154,8 @@
 
         </div>
     </div>
-</section>  
-
-
-<!-- produtos mobile-->
-<section class="page-section bg-danger py-5 d-none" id="produtos-mobile">
-    <div class="">
+    <!-- produtos mobile-->
+    <div class="d-none" id="produtos-mobile">
         <h2 class="text-center text-white mt-0">Dinheiro na conta sem sair de casa.</h2>
         <hr class="divider border-white mt-4 mb-2"/>
         <div class="row justify-content-center mx-0 px-0 text-muted ">
@@ -261,6 +257,9 @@
         </div>
     </div>
 </section>  
+
+
+
 
 
 {{-- parceiros desktop --}}
