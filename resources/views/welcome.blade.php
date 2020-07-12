@@ -383,46 +383,22 @@
         $(function(){
             $('form[name="contactForm"]').submit(function(event){
                 event.preventDefault();
-                    Swal.fire({
-                    icon: 'success',
-                    title: 'Obrigado!',
-                    text: 'Recebemos a sua solicitação de orçamento!',
-                    })
+                Swal.fire({
+                icon: 'success',
+                title: 'Obrigado!',
+                text: 'Recebemos a sua solicitação de orçamento!',
+                })
 
-                    var myHeaders = new Headers();
-                    myHeaders.append("access-token", "f949543e-9f27-4bd9-ad61-2abe36fe2e58");
-                    myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
-                    myHeaders.append("Cookie", "PHPSESSID=e4sollbabufnpuau797q4hj5g7");
-
-                    var urlencoded = new URLSearchParams();
-                    urlencoded.append("name", document.getElementById('name').value);
-                    urlencoded.append("user_id", "1866");
-                    urlencoded.append("phone", document.getElementById('phone').value);
-                    urlencoded.append("email", document.getElementById('email').value);
-
-                    var requestOptions = {
-                    method: 'POST',
-                    headers: myHeaders,
-                    body: urlencoded,
-                    redirect: 'follow'
-};
-        var id = '';
-        const proxyurl = "https://cors-anywhere.herokuapp.com/";
-        fetch(proxyurl +"https://api.lscrm.com.br/v1/persons", requestOptions)
-            .then(response => response.json())
-            .then(result => id = result['post_data'])
-            .then(id => {
                 var myHeaders = new Headers();
                 myHeaders.append("access-token", "f949543e-9f27-4bd9-ad61-2abe36fe2e58");
                 myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
                 myHeaders.append("Cookie", "PHPSESSID=e4sollbabufnpuau797q4hj5g7");
 
                 var urlencoded = new URLSearchParams();
-                urlencoded.append("entity_type", "persons");
-                urlencoded.append("title", id['name']);
+                urlencoded.append("name", document.getElementById('name').value);
                 urlencoded.append("user_id", "1866");
-                urlencoded.append("stage_id", "3");
-                urlencoded.append("person_id", id['id']);
+                urlencoded.append("phone", document.getElementById('phone').value);
+                urlencoded.append("email", document.getElementById('email').value);
 
                 var requestOptions = {
                 method: 'POST',
@@ -431,13 +407,39 @@
                 redirect: 'follow'
                 };
 
-                fetch(proxyurl + "https://api.lscrm.com.br/v1/opportunities", requestOptions)
-                .then(response => response.text())
-                .then(result => console.log(result))
-                .catch(error => console.log('error', error));
-            })
-            .catch(error => console.log('error', error));
-                            });
+                var id = '';
+                const proxyurl = "https://cors-anywhere.herokuapp.com/";
+                fetch(proxyurl +"https://api.lscrm.com.br/v1/persons", requestOptions)
+                    .then(response => response.json())
+                    .then(result => id = result['post_data'])
+                    .then(id => {
+                        var myHeaders = new Headers();
+                        myHeaders.append("access-token", "f949543e-9f27-4bd9-ad61-2abe36fe2e58");
+                        myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
+                        myHeaders.append("Cookie", "PHPSESSID=e4sollbabufnpuau797q4hj5g7");
+
+                        var urlencoded = new URLSearchParams();
+                        urlencoded.append("entity_type", "persons");
+                        urlencoded.append("title", id['name']);
+                        urlencoded.append("user_id", "1866");
+                        urlencoded.append("stage_id", "3");
+                        urlencoded.append("person_id", id['id']);
+
+                        var requestOptions = {
+                        method: 'POST',
+                        headers: myHeaders,
+                        body: urlencoded,
+                        redirect: 'follow'
+                        };
+
+                        fetch(proxyurl + "https://api.lscrm.com.br/v1/opportunities", requestOptions)
+                        .then(response => response.text())
+                        .then(result => console.log(result))
+                        .catch(error => console.log('error', error));
+                    })
+                    .catch(error => console.log('error', error));
+                document.getElementById("contactForm").reset();
+            });
         })
         
     </script>
