@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        {{-- GOOGLE --}}
-        <meta name="google-site-verification" content="3d6UxvAO6n97CfVEb76zq5B3r7c2Vz1EuexVxeFzPVw" />
-
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
@@ -13,9 +10,6 @@
         <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
         <!-- Third party plugin CSS-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -24,16 +18,8 @@
         {{-- Sweet Alert --}}
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
         <script data-ad-client="ca-pub-6477437543223676" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168368641-1">
-        </script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-168368641-1');
-        </script>
+        {{-- Jquery --}}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -258,10 +244,6 @@
     </div>
 </section>  
 
-
-
-
-
 {{-- parceiros desktop --}}
 
 <section class="page-section py-4 my-4 d-none" id="parceiros-desktop">
@@ -367,8 +349,6 @@
         </div>
 </section>
 
-
-
 <!-- Contact-->
 <section class="page-section py-4 my-4" id="contato">
     <div class="container">
@@ -378,11 +358,10 @@
                 <hr class="divider my-4" />
             </div>
         </div>
-        
         <form id="contactForm" name="contactForm">
-            @csrf
+            
             <div class="row align-items-stretch mb-4">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="form-group">
                         <input class="form-control" id="name" name="name" type="text" placeholder="Seu Nome *" required="required"/>
                     </div>
@@ -393,11 +372,6 @@
                         <input class="form-control" id="phone" name="phone" type="tel" placeholder="Seu Telefone *" required="required" data-validation-required-message="Please enter your phone number." />
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="form-group form-group-textarea mb-md-0">
-                        <textarea class="form-control" id="message" name="message" placeholder="Sua Mensagem *" rows="6" required="required"></textarea>
-                    </div>
-                </div>
             </div>
             <div class="text-center">
                 <div id="success"></div>
@@ -405,8 +379,70 @@
             </div>
         </form>
     </div>
-</section>
+    <script>
+        $(function(){
+            $('form[name="contactForm"]').submit(function(event){
+                event.preventDefault();
+                    Swal.fire({
+                    icon: 'success',
+                    title: 'Obrigado!',
+                    text: 'Recebemos a sua solicitação de orçamento!',
+                    })
 
+                    var myHeaders = new Headers();
+                    myHeaders.append("access-token", "f949543e-9f27-4bd9-ad61-2abe36fe2e58");
+                    myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
+                    myHeaders.append("Cookie", "PHPSESSID=e4sollbabufnpuau797q4hj5g7");
+
+                    var urlencoded = new URLSearchParams();
+                    urlencoded.append("name", document.getElementById('name').value);
+                    urlencoded.append("user_id", "1866");
+                    urlencoded.append("phone", document.getElementById('phone').value);
+                    urlencoded.append("email", document.getElementById('email').value);
+
+                    var requestOptions = {
+                    method: 'POST',
+                    headers: myHeaders,
+                    body: urlencoded,
+                    redirect: 'follow'
+};
+        var id = '';
+        const proxyurl = "https://cors-anywhere.herokuapp.com/";
+        fetch(proxyurl +"https://api.lscrm.com.br/v1/persons", requestOptions)
+            .then(response => response.json())
+            .then(result => id = result['post_data'])
+            .then(id => {
+                var myHeaders = new Headers();
+                myHeaders.append("access-token", "f949543e-9f27-4bd9-ad61-2abe36fe2e58");
+                myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
+                myHeaders.append("Cookie", "PHPSESSID=e4sollbabufnpuau797q4hj5g7");
+
+                var urlencoded = new URLSearchParams();
+                urlencoded.append("entity_type", "persons");
+                urlencoded.append("title", id['name']);
+                urlencoded.append("user_id", "1866");
+                urlencoded.append("stage_id", "3");
+                urlencoded.append("person_id", id['id']);
+
+                var requestOptions = {
+                method: 'POST',
+                headers: myHeaders,
+                body: urlencoded,
+                redirect: 'follow'
+                };
+
+                fetch(proxyurl + "https://api.lscrm.com.br/v1/opportunities", requestOptions)
+                .then(response => response.text())
+                .then(result => console.log(result))
+                .catch(error => console.log('error', error));
+            })
+            .catch(error => console.log('error', error));
+                            });
+        })
+        
+    </script>
+
+</section>
 
         <!-- Footer-->
         <footer class="page-footer font-small mdb-color pt-4 bg-dark text-white" style="border-top:1px solid rgb(224, 224, 224)">
@@ -698,8 +734,6 @@
             position: fixed;
             bottom: 0;
             right: 0;
-            
-            
             }
             </style>
 
@@ -712,6 +746,9 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i" crossorigin="anonymous"></script>
+
+
+        
 
     </body>
 </html>

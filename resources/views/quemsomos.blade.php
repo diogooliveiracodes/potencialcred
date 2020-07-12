@@ -89,7 +89,6 @@
         </div>
     </div>
 
-
         <!-- Footer-->
         <footer class="page-footer font-small mdb-color pt-4 bg-dark text-white" style="border-top:1px solid rgb(224, 224, 224)">
 
