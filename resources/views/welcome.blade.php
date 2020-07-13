@@ -708,7 +708,7 @@
                             <a href="mailto:contato@kicell7.com.br" style="color:white"> <i class="fas fa-envelope mr-3" ></i>contato@potencialcred.com.br</a>
                         </p>
                         <p>
-                            <a href="tel:3198112141" style="color:white"><i class="fas fa-phone mr-3"></i>(31) 4003-4000</a>
+                            <a href="tel:3198112141" style="color:white"><i class="fas fa-phone mr-3"></i>(31) 99595-8101</a>
                         </p>
                         <div class="text-white mt-2 mb-4" >
                             <a class="text-white" href="https://www.facebook.com/rodrigo.pachecoalmeida.39"><i class="fab fa-4x fa-facebook-square pr-3"></i></a> 
