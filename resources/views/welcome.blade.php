@@ -60,7 +60,7 @@
 
 
 <!-- produtos-->
-<section class="page-section bg-danger py-5" id="produtos">
+<section class="page-section bg-danger py-5" >
     <div class="container d-none" id="produtos-desktop">
         <h2 class="text-center text-white mt-0">Dinheiro na conta sem sair de casa</h2>
         <hr class="divider border-white mt-4 mb-5"/>
@@ -447,7 +447,7 @@
 </section>
 
         <!-- Footer-->
-        <footer class="page-footer font-small mdb-color pt-4 bg-dark text-white" style="border-top:1px solid rgb(224, 224, 224)">
+        <footer id="produtos" class="page-footer font-small mdb-color pt-4 bg-dark text-white" style="border-top:1px solid rgb(224, 224, 224)">
 
             <!-- Footer Links -->
             <div class="container text-center text-md-left">
@@ -465,7 +465,7 @@
                             <a href="mailto:contato@potencialcred.com.br" style="color:white"> <i class="fas fa-envelope mr-3" ></i>contato@potencialcred.com.br</a>
                         </p>
                         <p>
-                            <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31) 4003 4000</a>
+                            <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31) 99595-8101</a>
                         </p>
                         <div class="text-white mt-5" >
                             <a class="text-white" href="https://www.facebook.com/rodrigo.pachecoalmeida.39"><i class="fab fa-4x fa-facebook-square pr-3"></i></a> 
