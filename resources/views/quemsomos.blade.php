@@ -51,23 +51,27 @@
                 </div>
                 <div class="card-body text-justify">
                     <p>
-                        <strong>A Potencial Serviços Financeiros</strong>, presta serviços de correspondente bancário. Temos 
-                        parceria os principais bancos, seguradoras e associações do mercado. Nós ofertamos 
-                        empréstimos, financiamentos, empréstimos públicos, empréstimos consignados, 
-                        seguros, consórcio, investimentos, capitalização, crédito pessoal e empresarial 
+                        <strong>A Potencial Serviços Financeiros</strong> é uma empresa multisserviços e multissoluções, pensada para 
+                        auxiliar você e sua família a gerir todo o planejamento financeiro, o patrimônio e os negócios, 
+                        com tranquilidade e segurança. 
                     </p>
                     <p>
-                        Somos uma empresa de Multisserviços e Multi soluções. Ofertamos produtos como 
-                        Proteção veicular (seguro associativo), seguro garantia, seguros para seu veículo, 
-                        seguro para sua casa, planos de saúde empresarial, gestão de benefícios corporativos.  
+                        Oferecemos uma linha completa de produtos financeiros, que vão desde seguros (veicular, 
+                        viagem, garantia, residencial), planos de saúde empresariais, empréstimos, consórcios, até 
+                        financiamentos, gestão de benefícios corporativos e investimentos. Tudo isso e muito mais, 
+                        para que nossos clientes tenham confiança na hora de cuidar do seu capital.   
                     </p>
                     <p>
-                        Nosso objetivo é auxiliar no planejamento financeiro para você, sua família, seu 
-                        patrimônio e seus negócios. Atendemos empresas, profissionais liberais, autônomos, 
-                        pessoa física, funcionários públicos e aposentados. 
+                        Atendemos empresas, profissionais liberais, autônomos, pessoas físicas, funcionários públicos 
+                        e aposentados. E o melhor: garantindo as melhores taxas do mercado! 
                     </p>
                     <p>
-                        <strong>Contamos com a Parceira das maiores e mais respeitadas companhias do mercado!</strong>
+                        Além disso, buscando sempre prestar os serviços com qualidade, contamos com a parceria das 
+                        maiores e mais respeitadas instituições financeiras, grandes bancos, associações e 
+                        seguradoras. 
+                    </p>
+                    <p>
+                        Quer saber mais? Entre em contato conosco e descubra todo o potencial do seu dinheiro! 
                     </p>
                 </div>
             </div>
@@ -89,8 +93,8 @@
         </div>
     </div>
 
-        <!-- Footer-->
-        <footer class="page-footer font-small mdb-color pt-4 bg-dark text-white" style="border-top:1px solid rgb(224, 224, 224)">
+         <!-- Footer-->
+         <footer id="produtos" class="page-footer font-small mdb-color pt-4 bg-dark text-white" style="border-top:1px solid rgb(224, 224, 224)">
 
             <!-- Footer Links -->
             <div class="container text-center text-md-left">
@@ -102,17 +106,17 @@
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 d-none" id="contatofooterweb">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
                         <p>
-                        <i class="fas fa-home mr-3"></i> Rua Guajajaras nº 910, sala 403, Centro - Belo Horizonte</p>
+                        <i class="fas fa-home mr-3"></i>Rua DOS Guajajaras, nº 910, sala 403 - Centro - Belo Horizonte/MG</p>
                     
                         <p>
                             <a href="mailto:contato@potencialcred.com.br" style="color:white"> <i class="fas fa-envelope mr-3" ></i>contato@potencialcred.com.br</a>
                         </p>
                         <p>
-                            <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31) 4003 4000</a>
+                            <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31) 99595-8101</a>
                         </p>
                         <div class="text-white mt-5" >
-                            <a class="text-white" href="https://www.facebook.com/rodrigo.pachecoalmeida.39"><i class="fab fa-2x fa-facebook-square pr-3"></i></a> 
-                            <a class="text-white" href="https://www.instagram.com/potencialservicosfinanceiros/"><i class="fab fa-2x fa-instagram pr-3"></i></a> 
+                            <a class="text-white" href="https://www.facebook.com/rodrigo.pachecoalmeida.39"><i class="fab fa-4x fa-facebook-square pr-3"></i></a> 
+                            <a class="text-white" href="https://www.instagram.com/potencialservicosfinanceiros/"><i class="fab fa-4x fa-instagram pr-3"></i></a> 
                         </div>
         
                     </div>
@@ -150,7 +154,7 @@
                                 <div class="card-header" id="headingTwo">
                                 <h2 class="mb-0">
                                     <button style="box-shadow: none;" class="btn btn-block btn-footer text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                        Empréstimo Consignado para empresa privada 
+                                        Empréstimo Consignado para Empresa Privada 
                                     </button>
                                 </h2>
                                 </div>
@@ -199,17 +203,17 @@
                                     <div class="card-body">
                                         <ul>
                                             <li><strong>Para você</strong> proteger o que é mais importante. Seguros de Vida para 
-                                                garantir o seu bem-estar e de toda sua família ao longo dos anos de 
+                                                garantir o seu bem-estar e de toda a sua família ao longo dos anos, de 
                                                 acordo com cada momento da sua vida.  
-                                                Temos planos personalizados para garantir segurança financeira de 
-                                                acordo com a real necessidade do cliente com as melhores 
+                                                Temos planos personalizados para garantir segurança financeira conforme 
+                                                a real necessidade do cliente, com as melhores 
                                                 coberturas e os melhores serviços do mercado. 
                                             </li>
                                             <br>
                                             <li><strong>Para sua empresa</strong> contratar os melhores serviços e benefícios do 
                                                 mercado. Planos customizados para atrair e manter os melhores 
                                                 talentos. Oferecemos as melhores soluções de proteção e 
-                                                planejamento financeiro
+                                                planejamento financeiro.
                                             </li>
                                         </ul>
                                     </div>
@@ -230,7 +234,7 @@
                                         <ul>
                                             <li>
                                                 Para planejar sua viagem com segurança e 
-                                                tranquilidade 
+                                                tranquilidade.
                                             </li>
                                         </ul>
                                     </div>
@@ -241,7 +245,7 @@
                                 <div class="card-header" id="heading6">
                                     <h2 class="mb-0">
                                     <button style="box-shadow: none;" class="btn btn-block btn-footer text-left" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
-                                        Seguros para Autônomos e profissionais Liberais
+                                        Seguros para Autônomos e Profissionais Liberais
                                     </button>
                                     </h2>
                                 </div>
@@ -270,9 +274,9 @@
                                     <div class="card-body">
                                         <ul>
                                             <li>
-                                                Para atrair e reter os melhores talentos 
-                                                possuímos Seguro de Vida em Grupo, Plano de Saúde e Odontológico, 
-                                                Seguro Estagiário dentre outros. 
+                                                Para atrair e reter os melhores talentos, 
+                                                oferecemos Seguro de Vida em Grupo, Plano de Saúde e Odontológico, 
+                                                Seguro Estagiário, entre outros. 
                                             </li>
                                         </ul>
                                     </div>
@@ -291,7 +295,7 @@
                                     <div class="card-body">
                                         <ul>
                                             <li>
-                                                Comece a planejar e investir no seu futuro 
+                                                Comece a planejar e investir no seu futuro.
                                             </li>
                                         </ul>
                                     </div>
@@ -310,7 +314,7 @@
                                     <div class="card-body">
                                         <ul>
                                             <li>
-                                                Aqui você encontra as melhores opções para investir 
+                                                Aqui você encontra as melhores opções para investir.
                                             </li>
                                         </ul>
                                     </div>
@@ -329,7 +333,7 @@
                                     <div class="card-body">
                                         <ul>
                                             <li>
-                                                As melhores soluções para sua próxima conquista 
+                                                As melhores soluções para sua próxima conquista.
                                             </li>
                                         </ul>
                                     </div>
@@ -345,17 +349,17 @@
                     <div class="col-md-12 col-lg-12 col-xl-12 mx-auto mt-3 d-none" id="contatofootermobile">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
                         <p>
-                        <i class="fas fa-home mr-3"></i> Rua Guajajaras nº 910, sala 403, Centro - Belo Horizonte</p>
+                        <i class="fas fa-home mr-3"></i>Rua DOS Guajajaras, nº 910, sala 403 - Centro - Belo Horizonte/MG</p>
                     
                         <p>
                             <a href="mailto:contato@kicell7.com.br" style="color:white"> <i class="fas fa-envelope mr-3" ></i>contato@potencialcred.com.br</a>
                         </p>
                         <p>
-                            <a href="tel:3198112141" style="color:white"><i class="fas fa-phone mr-3"></i>(31) 4003-4000</a>
+                            <a href="tel:3198112141" style="color:white"><i class="fas fa-phone mr-3"></i>(31) 99595-8101</a>
                         </p>
-                        <div class="text-white mt-5" >
-                            <a href="https://www.facebook.com/rodrigo.pachecoalmeida.39"><i class="fab fa-2x fa-facebook-square pr-3"></i></a> 
-                            <a href="https://www.instagram.com/potencialservicosfinanceiros/"><i class="fab fa-2x fa-instagram pr-3"></i></a> 
+                        <div class="text-white mt-2 mb-4" >
+                            <a class="text-white" href="https://www.facebook.com/rodrigo.pachecoalmeida.39"><i class="fab fa-4x fa-facebook-square pr-3"></i></a> 
+                            <a class="text-white" href="https://www.instagram.com/potencialservicosfinanceiros/"><i class="fab fa-4x fa-instagram pr-3"></i></a> 
                         </div>
         
                     </div>
@@ -379,8 +383,6 @@
             position: fixed;
             bottom: 0;
             right: 0;
-            
-            
             }
             </style>
 

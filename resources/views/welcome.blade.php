@@ -56,8 +56,45 @@
         </header>
         <!-- About-->
 
-
-
+{{-- Quem somos --}}
+<section>
+    <div class="row justify-content-center bg-light px-0 mx-0 py-5 mt-5" >
+        <div class="col-sm-8">
+            <div class="card">
+                <div class="card-header bg-white">
+                    <div class="row justify-content-center mt-4">
+                        <h2>Quem Somos</h2>
+                    </div>
+                </div>
+                <div class="card-body text-justify">
+                    <p>
+                        <strong>A Potencial Serviços Financeiros</strong> é uma empresa multisserviços e multissoluções, pensada para 
+                        auxiliar você e sua família a gerir todo o planejamento financeiro, o patrimônio e os negócios, 
+                        com tranquilidade e segurança. 
+                    </p>
+                    <p>
+                        Oferecemos uma linha completa de produtos financeiros, que vão desde seguros (veicular, 
+                        viagem, garantia, residencial), planos de saúde empresariais, empréstimos, consórcios, até 
+                        financiamentos, gestão de benefícios corporativos e investimentos. Tudo isso e muito mais, 
+                        para que nossos clientes tenham confiança na hora de cuidar do seu capital.   
+                    </p>
+                    <p>
+                        Atendemos empresas, profissionais liberais, autônomos, pessoas físicas, funcionários públicos 
+                        e aposentados. E o melhor: garantindo as melhores taxas do mercado! 
+                    </p>
+                    <p>
+                        Além disso, buscando sempre prestar os serviços com qualidade, contamos com a parceria das 
+                        maiores e mais respeitadas instituições financeiras, grandes bancos, associações e 
+                        seguradoras. 
+                    </p>
+                    <p>
+                        Quer saber mais? Entre em contato conosco e descubra todo o potencial do seu dinheiro! 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- produtos-->
 <section class="page-section bg-danger py-5" >
@@ -94,7 +131,7 @@
                     <i class="fas fa-4x text-white fa-handshake"></i>
                 </div>
                 <div class="row justify-content-center mt-3">
-                    <h4 class="text-white">CORRETORA</h4>
+                    <h4 class="text-white">CORRETAGEM</h4>
                 </div>
             </div>
         </div>
@@ -134,7 +171,7 @@
                     <i class="fas fa-4x text-white fa-chart-line"></i>
                 </div>
                 <div class="row justify-content-center mt-3">
-                    <h4 class="text-white">INVESTIMENTO</h4>
+                    <h4 class="text-white">INVESTIMENTOS</h4>
                 </div>
             </div>
 
@@ -366,7 +403,7 @@
                         <input class="form-control" id="name" name="name" type="text" placeholder="Seu Nome *" required="required"/>
                     </div>
                     <div class="form-group">
-                        <input class="form-control" id="email" name="email" type="email" placeholder="Seu Email *" required="required" data-validation-required-message="Please enter your email address." />
+                        <input class="form-control" id="email" name="email" type="email" placeholder="Seu E-mail *" required="required" data-validation-required-message="Please enter your email address." />
                     </div>
                     <div class="form-group mb-md-0">
                         <input class="form-control" id="phone" name="phone" type="tel" placeholder="Seu Telefone *" required="required" data-validation-required-message="Please enter your phone number." />
@@ -459,7 +496,7 @@
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 d-none" id="contatofooterweb">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
                         <p>
-                        <i class="fas fa-home mr-3"></i> Rua Guajajaras nº 910, sala 403, Centro - Belo Horizonte</p>
+                        <i class="fas fa-home mr-3"></i>Rua DOS Guajajaras, nº 910, sala 403 - Centro - Belo Horizonte/MG</p>
                     
                         <p>
                             <a href="mailto:contato@potencialcred.com.br" style="color:white"> <i class="fas fa-envelope mr-3" ></i>contato@potencialcred.com.br</a>
@@ -507,7 +544,7 @@
                                 <div class="card-header" id="headingTwo">
                                 <h2 class="mb-0">
                                     <button style="box-shadow: none;" class="btn btn-block btn-footer text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                        Empréstimo Consignado para empresa privada 
+                                        Empréstimo Consignado para Empresa Privada 
                                     </button>
                                 </h2>
                                 </div>
@@ -556,17 +593,17 @@
                                     <div class="card-body">
                                         <ul>
                                             <li><strong>Para você</strong> proteger o que é mais importante. Seguros de Vida para 
-                                                garantir o seu bem-estar e de toda sua família ao longo dos anos de 
+                                                garantir o seu bem-estar e de toda a sua família ao longo dos anos, de 
                                                 acordo com cada momento da sua vida.  
-                                                Temos planos personalizados para garantir segurança financeira de 
-                                                acordo com a real necessidade do cliente com as melhores 
+                                                Temos planos personalizados para garantir segurança financeira conforme 
+                                                a real necessidade do cliente, com as melhores 
                                                 coberturas e os melhores serviços do mercado. 
                                             </li>
                                             <br>
                                             <li><strong>Para sua empresa</strong> contratar os melhores serviços e benefícios do 
                                                 mercado. Planos customizados para atrair e manter os melhores 
                                                 talentos. Oferecemos as melhores soluções de proteção e 
-                                                planejamento financeiro
+                                                planejamento financeiro.
                                             </li>
                                         </ul>
                                     </div>
@@ -587,7 +624,7 @@
                                         <ul>
                                             <li>
                                                 Para planejar sua viagem com segurança e 
-                                                tranquilidade 
+                                                tranquilidade.
                                             </li>
                                         </ul>
                                     </div>
@@ -598,7 +635,7 @@
                                 <div class="card-header" id="heading6">
                                     <h2 class="mb-0">
                                     <button style="box-shadow: none;" class="btn btn-block btn-footer text-left" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
-                                        Seguros para Autônomos e profissionais Liberais
+                                        Seguros para Autônomos e Profissionais Liberais
                                     </button>
                                     </h2>
                                 </div>
@@ -627,9 +664,9 @@
                                     <div class="card-body">
                                         <ul>
                                             <li>
-                                                Para atrair e reter os melhores talentos 
-                                                possuímos Seguro de Vida em Grupo, Plano de Saúde e Odontológico, 
-                                                Seguro Estagiário dentre outros. 
+                                                Para atrair e reter os melhores talentos, 
+                                                oferecemos Seguro de Vida em Grupo, Plano de Saúde e Odontológico, 
+                                                Seguro Estagiário, entre outros. 
                                             </li>
                                         </ul>
                                     </div>
@@ -648,7 +685,7 @@
                                     <div class="card-body">
                                         <ul>
                                             <li>
-                                                Comece a planejar e investir no seu futuro 
+                                                Comece a planejar e investir no seu futuro.
                                             </li>
                                         </ul>
                                     </div>
@@ -667,7 +704,7 @@
                                     <div class="card-body">
                                         <ul>
                                             <li>
-                                                Aqui você encontra as melhores opções para investir 
+                                                Aqui você encontra as melhores opções para investir.
                                             </li>
                                         </ul>
                                     </div>
@@ -686,7 +723,7 @@
                                     <div class="card-body">
                                         <ul>
                                             <li>
-                                                As melhores soluções para sua próxima conquista 
+                                                As melhores soluções para sua próxima conquista.
                                             </li>
                                         </ul>
                                     </div>
@@ -702,7 +739,7 @@
                     <div class="col-md-12 col-lg-12 col-xl-12 mx-auto mt-3 d-none" id="contatofootermobile">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
                         <p>
-                        <i class="fas fa-home mr-3"></i> Rua Guajajaras nº 910, sala 403, Centro - Belo Horizonte</p>
+                        <i class="fas fa-home mr-3"></i>Rua DOS Guajajaras, nº 910, sala 403 - Centro - Belo Horizonte/MG</p>
                     
                         <p>
                             <a href="mailto:contato@kicell7.com.br" style="color:white"> <i class="fas fa-envelope mr-3" ></i>contato@potencialcred.com.br</a>
