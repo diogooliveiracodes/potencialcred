@@ -29,8 +29,10 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
 
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{route('quemsomos')}}">Quem Somos</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#quem-somos">Quem Somos</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Seja nosso parceiro</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Trabalhe conosco</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contato">Contato</a></li>
                     </ul>
                 </div>
@@ -58,8 +60,8 @@
 
 {{-- Quem somos --}}
 <section>
-    <div class="row justify-content-center bg-light px-0 mx-0 py-5 mt-5" >
-        <div class="col-sm-8">
+    <div class="row justify-content-center bg-light px-0 mx-0 py-5 mt-3" id="quem-somos">
+        <div class="col-sm-11">
             <div class="card">
                 <div class="card-header bg-white">
                     <div class="row justify-content-center mt-4">
@@ -785,9 +787,6 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i" crossorigin="anonymous"></script>
-
-
-        
 
     </body>
 </html>
