@@ -31,8 +31,8 @@
 
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#quem-somos">Quem Somos</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#produtos">Produtos</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{route('quemsomos')}}">Seja nosso parceiro</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{route('quemsomos')}}">Trabalhe conosco</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{route('sejanossoparceiro')}}">Seja nosso parceiro</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{route('trabalheconosco')}}">Trabalhe conosco</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contato">Contato</a></li>
                     </ul>
                 </div>

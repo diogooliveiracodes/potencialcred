@@ -18,14 +18,13 @@ Route::get('/', function () {
 })->name('welcome');
 
 
-Route::get('/quem-somos', function(){
-    return view ('quemsomos');
-})->name('quemsomos');
+Route::get('/seja-nosso-parceiro', function(){
+    return view ('sejanossoparceiro');
+})->name('sejanossoparceiro');
 
-
-
-
-
+Route::get('/trabalhe-conosco', function(){
+    return view ('trabalheconosco');
+})->name('trabalheconosco');
 
 
 // Route::get('/envio-email', function(){

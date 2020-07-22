@@ -71,33 +71,6 @@
            
         </div>
     </div>
-
-    <div class="row justify-content-center mx-0 px-0"  id="trabalhe-conosco">
-        <div class="card col-sm-8 mt-3">
-            <div class="mx-0 px-0">
-                <div class="row justify-content-center mb-3 px-0 mx-0">
-                    <div class="col-lg-8 text-center  mt-5 px-0 mx-0">
-                        <h2 class="mt-0">Trabalhe Conosco</h2>
-                        <hr class="divider my-4" />
-                    </div>
-                </div>
-                <div class="row justify-content-center px-0 mx-0 mb-5 ">
-                    <div class="col-sm-12 mx-0 px-0">
-                            <div class="text-center ">
-                                <p>Encaminhe seu currículo para:</p>
-                                <p>
-                                    <a href="mailto:contato@potencialcred.com.br" class="" style="text-decoration: none"> 
-                                        <i class="fas fa-envelope mr-3" ></i>contato@potencialcred.com.br
-                                    </a>
-                                </p>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
     
 </section>
 
