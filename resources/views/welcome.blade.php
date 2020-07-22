@@ -548,7 +548,7 @@
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 d-none" id="contatofooterweb">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
                         <p>
-                        <i class="fas fa-home mr-3"></i>Rua DOS Guajajaras, nº 910, sala 403 - Centro - Belo Horizonte/MG</p>
+                        <i class="fas fa-home mr-3"></i>Rua dos Guajajaras, nº 910, sala 403 - Centro - Belo Horizonte/MG</p>
                     
                         <p>
                             <a href="mailto:contato@potencialcred.com.br" style="color:white"> <i class="fas fa-envelope mr-3" ></i>contato@potencialcred.com.br</a>
@@ -791,7 +791,7 @@
                     <div class="col-md-12 col-lg-12 col-xl-12 mx-auto mt-3 d-none" id="contatofootermobile">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
                         <p>
-                        <i class="fas fa-home mr-3"></i>Rua DOS Guajajaras, nº 910, sala 403 - Centro - Belo Horizonte/MG</p>
+                        <i class="fas fa-home mr-3"></i>Rua dos Guajajaras, nº 910, sala 403 - Centro - Belo Horizonte/MG</p>
                     
                         <p>
                             <a href="mailto:contato@kicell7.com.br" style="color:white"> <i class="fas fa-envelope mr-3" ></i>contato@potencialcred.com.br</a>
