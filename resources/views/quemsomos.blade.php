@@ -41,57 +41,52 @@
         </div>
     </nav>
 
-    <div class="row justify-content-center bg-light px-0 mx-0 py-5 mt-5" >
-        <div class="col-sm-8">
-            <div class="card">
-                <div class="card-header bg-white">
-                    <div class="row justify-content-center mt-4">
-                        <h2>Quem Somos</h2>
-                    </div>
-                </div>
-                <div class="card-body text-justify">
-                    <p>
-                        <strong>A Potencial Serviços Financeiros</strong> é uma empresa multisserviços e multissoluções, pensada para 
-                        auxiliar você e sua família a gerir todo o planejamento financeiro, o patrimônio e os negócios, 
-                        com tranquilidade e segurança. 
-                    </p>
-                    <p>
-                        Oferecemos uma linha completa de produtos financeiros, que vão desde seguros (veicular, 
-                        viagem, garantia, residencial), planos de saúde empresariais, empréstimos, consórcios, até 
-                        financiamentos, gestão de benefícios corporativos e investimentos. Tudo isso e muito mais, 
-                        para que nossos clientes tenham confiança na hora de cuidar do seu capital.   
-                    </p>
-                    <p>
-                        Atendemos empresas, profissionais liberais, autônomos, pessoas físicas, funcionários públicos 
-                        e aposentados. E o melhor: garantindo as melhores taxas do mercado! 
-                    </p>
-                    <p>
-                        Além disso, buscando sempre prestar os serviços com qualidade, contamos com a parceria das 
-                        maiores e mais respeitadas instituições financeiras, grandes bancos, associações e 
-                        seguradoras. 
-                    </p>
-                    <p>
-                        Quer saber mais? Entre em contato conosco e descubra todo o potencial do seu dinheiro! 
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+{{-- TRABALHE CONOSCO | SEJA NOSSO PARCEIRO --}}
+<section class="bg-danger mt-5 mb-0 py-4 mx-0 px-0">
+    <div class="row justify-content-center mx-0 px-0"  id="trabalhe-conosco">
 
-    <div class="row justify-content-center bg-light px-0 mx-0 mb-5">
-        <div class="col-sm-8">
-            <div class="card">
-                <div class="card-header bg-white">
-                    <div class="row justify-content-center mt-4">
-                        <h2>Trabalhe Conosco</h2>
-                    </div>
+        <div class="col-sm-6 mx-0 px-0"  id="seja-nosso-parceiro">
+            <div class="row justify-content-center mb-3 px-0 mx-0">
+                <div class="col-lg-8 text-center text-white mt-5 px-0 mx-0">
+                    <h2 class="mt-0">Seja nosso Parceiro</h2>
+                    <hr class="divider border-white mt-4 "/>
                 </div>
-                <div class="card-body text-center">
-                    <p>Encaminhe seu currículo para: <br><a href="mailto:contato@potencialcred.com.br"> <i class="fas fa-envelope mr-3" ></i>contato@potencialcred.com.br</a></p>
+            </div>
+            <div class="row justify-content-center px-0 mx-0 mb-5 text-white">
+                <div class="col-sm-12 mx-0 px-0">
+                        <div class="text-center text-white">
+                            <p>Entre em contato no número:</p>
+                            <p>
+                                <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31) 99595-8101</a>
+                            </p>
+                        </div>
                 </div>
             </div>
         </div>
+
+        <div class="mx-0 px-0 col-sm-6">
+            <div class="row justify-content-center mb-3 px-0 mx-0">
+                <div class="col-lg-8 text-center text-white mt-5 px-0 mx-0">
+                    <h2 class="mt-0">Trabalhe Conosco</h2>
+                    <hr class="divider border-white mt-4"/>
+                </div>
+            </div>
+            <div class="row justify-content-center px-0 mx-0 mb-5 text-white">
+                <div class="col-sm-12 mx-0 px-0">
+                        <div class="text-center text-white">
+                            <p>Encaminhe seu currículo para:</p>
+                            <p>
+                                <a href="mailto:contato@potencialcred.com.br" class="text-white" style="text-decoration: none"> 
+                                    <i class="fas fa-envelope mr-3" ></i>contato@potencialcred.com.br
+                                </a>
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
     </div>
+</section>
 
          <!-- Footer-->
          <footer id="produtos" class="page-footer font-small mdb-color pt-4 bg-dark text-white" style="border-top:1px solid rgb(224, 224, 224)">
