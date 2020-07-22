@@ -31,8 +31,8 @@
 
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#quem-somos">Quem Somos</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#produtos">Produtos</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Seja nosso parceiro</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Trabalhe conosco</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#seja-nosso-parceiro">Seja nosso parceiro</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#trabalhe-conosco">Trabalhe conosco</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contato">Contato</a></li>
                     </ul>
                 </div>
@@ -59,13 +59,14 @@
         <!-- About-->
 
 {{-- Quem somos --}}
-<section>
+<section class="bg-light">
     <div class="row justify-content-center bg-light px-0 mx-0 py-5 mt-3" id="quem-somos">
         <div class="col-sm-11">
-            <div class="card">
-                <div class="card-header bg-white">
-                    <div class="row justify-content-center mt-4">
-                        <h2>Quem Somos</h2>
+            
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="mt-0">Quem Somos</h2>
+                        <hr class="divider my-4" />
                     </div>
                 </div>
                 <div class="card-body text-justify">
@@ -93,7 +94,7 @@
                         Quer saber mais? Entre em contato conosco e descubra todo o potencial do seu dinheiro! 
                     </p>
                 </div>
-            </div>
+            
         </div>
     </div>
 </section>
@@ -388,6 +389,54 @@
         </div>
 </section>
 
+
+{{-- TRABALHE CONOSCO | SEJA NOSSO PARCEIRO --}}
+<section class="bg-danger my-5 py-4 mx-0 px-0">
+    <div class="row justify-content-center mx-0 px-0"  id="trabalhe-conosco">
+
+        <div class="col-sm-6 mx-0 px-0"  id="seja-nosso-parceiro">
+            <div class="row justify-content-center mb-3 px-0 mx-0">
+                <div class="col-lg-8 text-center text-white mt-5 px-0 mx-0">
+                    <h2 class="mt-0">Seja nosso Parceiro</h2>
+                    <hr class="divider border-white mt-4 "/>
+                </div>
+            </div>
+            <div class="row justify-content-center px-0 mx-0 mb-5 text-white">
+                <div class="col-sm-12 mx-0 px-0">
+                        <div class="text-center text-white">
+                            <p>Entre em contato no número:</p>
+                            <p>
+                                <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31) 99595-8101</a>
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mx-0 px-0 col-sm-6">
+            <div class="row justify-content-center mb-3 px-0 mx-0">
+                <div class="col-lg-8 text-center text-white mt-5 px-0 mx-0">
+                    <h2 class="mt-0">Trabalhe Conosco</h2>
+                    <hr class="divider border-white mt-4"/>
+                </div>
+            </div>
+            <div class="row justify-content-center px-0 mx-0 mb-5 text-white">
+                <div class="col-sm-12 mx-0 px-0">
+                        <div class="text-center text-white">
+                            <p>Encaminhe seu currículo para:</p>
+                            <p>
+                                <a href="mailto:contato@potencialcred.com.br" class="text-white" style="text-decoration: none"> 
+                                    <i class="fas fa-envelope mr-3" ></i>contato@potencialcred.com.br
+                                </a>
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 <!-- Contact-->
 <section class="page-section py-4 my-4" id="contato">
     <div class="container">
@@ -494,6 +543,7 @@
                 <!-- Footer links -->
                 <div class="row text-center text-md-left mt-3 pb-3">
             
+                    {{-- CONTATO FOOTER DESKTOP --}}
                     <!-- Grid column -->
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 d-none" id="contatofooterweb">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
