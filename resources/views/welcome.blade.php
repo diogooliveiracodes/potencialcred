@@ -509,6 +509,11 @@
                         <p>
                             <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31) 99595-8101</a>
                         </p>
+                        <p>
+                            <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31)  3021-9042</a>
+                        </p>
+                            <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31)  3021-9043</a>
+                        </p>
                         <div class="text-white mt-5" >
                             <a class="text-white" href="https://www.facebook.com/rodrigo.pachecoalmeida.39"><i class="fab fa-4x fa-facebook-square pr-3"></i></a> 
                             <a class="text-white" href="https://www.instagram.com/potencialservicosfinanceiros/"><i class="fab fa-4x fa-instagram pr-3"></i></a> 
@@ -751,6 +756,11 @@
                         </p>
                         <p>
                             <a href="tel:3198112141" style="color:white"><i class="fas fa-phone mr-3"></i>(31) 99595-8101</a>
+                        </p>
+                        <p>
+                            <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31)  3021-9042</a>
+                        </p>
+                            <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31)  3021-9043</a>
                         </p>
                         <div class="text-white mt-2 mb-4" >
                             <a class="text-white" href="https://www.facebook.com/rodrigo.pachecoalmeida.39"><i class="fab fa-4x fa-facebook-square pr-3"></i></a> 

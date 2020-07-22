@@ -42,50 +42,63 @@
     </nav>
 
 {{-- TRABALHE CONOSCO | SEJA NOSSO PARCEIRO --}}
-<section class="bg-danger mt-5 mb-0 py-4 mx-0 px-0">
-    <div class="row justify-content-center mx-0 px-0"  id="trabalhe-conosco">
+<section class="bg-light mt-5 mb-0 py-4 mx-0 px-0">
 
-        <div class="col-sm-6 mx-0 px-0"  id="seja-nosso-parceiro">
-            <div class="row justify-content-center mb-3 px-0 mx-0">
-                <div class="col-lg-8 text-center text-white mt-5 px-0 mx-0">
-                    <h2 class="mt-0">Seja nosso Parceiro</h2>
-                    <hr class="divider border-white mt-4 "/>
+    <div class="row justify-content-center mx-0 px-0"  id="seja-nosso-parceiro">
+        <div class="card col-sm-8 mt-3">
+            
+                <div class="row justify-content-center mb-3 px-0 mx-0">
+                    <div class="col-lg-8 text-center mt-5 px-0 mx-0">
+                        <h2 class="mt-0">Seja nosso Parceiro</h2>
+                        <hr class="divider my-4" />
+                    </div>
                 </div>
-            </div>
-            <div class="row justify-content-center px-0 mx-0 mb-5 text-white">
-                <div class="col-sm-12 mx-0 px-0">
-                        <div class="text-center text-white">
-                            <p>Entre em contato no número:</p>
-                            <p>
-                                <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31) 99595-8101</a>
-                            </p>
-                        </div>
+                <div class="row justify-content-center px-0 mx-0 mb-5 ">
+                    <div class="col-sm-12 mx-0 px-0">
+                            <div class="text-center ">
+                                <p>Entre em contato  número:</p>
+                                <p>
+                                    <a href="tel:3140034000" ><i class="fas fa-phone mr-3"></i>(31) 99595-8101</a>
+                                </p>
+                                <p>
+                                    <a href="tel:3140034000" ><i class="fas fa-phone mr-3"></i>(31)  3021-9042</a>
+                                </p>
+                                    <a href="tel:3140034000" ><i class="fas fa-phone mr-3"></i>(31)  3021-9043</a>
+                                </p>
+                            </div>
+                    </div>
                 </div>
-            </div>
+           
         </div>
+    </div>
 
-        <div class="mx-0 px-0 col-sm-6">
-            <div class="row justify-content-center mb-3 px-0 mx-0">
-                <div class="col-lg-8 text-center text-white mt-5 px-0 mx-0">
-                    <h2 class="mt-0">Trabalhe Conosco</h2>
-                    <hr class="divider border-white mt-4"/>
+    <div class="row justify-content-center mx-0 px-0"  id="trabalhe-conosco">
+        <div class="card col-sm-8 mt-3">
+            <div class="mx-0 px-0">
+                <div class="row justify-content-center mb-3 px-0 mx-0">
+                    <div class="col-lg-8 text-center  mt-5 px-0 mx-0">
+                        <h2 class="mt-0">Trabalhe Conosco</h2>
+                        <hr class="divider my-4" />
+                    </div>
                 </div>
-            </div>
-            <div class="row justify-content-center px-0 mx-0 mb-5 text-white">
-                <div class="col-sm-12 mx-0 px-0">
-                        <div class="text-center text-white">
-                            <p>Encaminhe seu currículo para:</p>
-                            <p>
-                                <a href="mailto:contato@potencialcred.com.br" class="text-white" style="text-decoration: none"> 
-                                    <i class="fas fa-envelope mr-3" ></i>contato@potencialcred.com.br
-                                </a>
-                            </p>
-                        </div>
+                <div class="row justify-content-center px-0 mx-0 mb-5 ">
+                    <div class="col-sm-12 mx-0 px-0">
+                            <div class="text-center ">
+                                <p>Encaminhe seu currículo para:</p>
+                                <p>
+                                    <a href="mailto:contato@potencialcred.com.br" class="" style="text-decoration: none"> 
+                                        <i class="fas fa-envelope mr-3" ></i>contato@potencialcred.com.br
+                                    </a>
+                                </p>
+                            </div>
+                    </div>
                 </div>
             </div>
         </div>
 
     </div>
+
+    
 </section>
 
          <!-- Footer-->
@@ -108,6 +121,11 @@
                         </p>
                         <p>
                             <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31) 99595-8101</a>
+                        </p>
+                        <p>
+                            <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31)  3021-9042</a>
+                        </p>
+                            <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31)  3021-9043</a>
                         </p>
                         <div class="text-white mt-5" >
                             <a class="text-white" href="https://www.facebook.com/rodrigo.pachecoalmeida.39"><i class="fab fa-4x fa-facebook-square pr-3"></i></a> 
@@ -351,6 +369,11 @@
                         </p>
                         <p>
                             <a href="tel:3198112141" style="color:white"><i class="fas fa-phone mr-3"></i>(31) 99595-8101</a>
+                        </p>
+                        <p>
+                            <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31)  3021-9042</a>
+                        </p>
+                            <a href="tel:3140034000" style="color:white"><i class="fas fa-phone mr-3"></i>(31)  3021-9043</a>
                         </p>
                         <div class="text-white mt-2 mb-4" >
                             <a class="text-white" href="https://www.facebook.com/rodrigo.pachecoalmeida.39"><i class="fab fa-4x fa-facebook-square pr-3"></i></a> 
