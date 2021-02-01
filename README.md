@@ -1,5 +1,5 @@
 # Webpage empresarial
-Este é um portal responsivo de uma empresa do ramo de linhas de crédito. <br>
+Este é o portal institucional da empresa PotencialCred. <br>
 O site é totalmente responsivo e perfeitamente funcional em smartphones. Com as funcionalidade de redirecionamento para ligações, aplicativos de e-mail e aplicativos de redes sociais.<br>
 
 ## Funcionalidades
