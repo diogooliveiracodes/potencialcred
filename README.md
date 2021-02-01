@@ -1,7 +1,6 @@
 # Webpage empresarial
 Este é o portal institucional da empresa PotencialCred. <br>
 O site é totalmente responsivo e perfeitamente funcional em smartphones. <br> 
-O portal conta com as funcionalidade de redirecionamento para ligações, aplicativos de e-mail, aplicativos de redes sociais e conexão com a API CRM Linkseller.<br>
 
 ## Funcionalidades
 1. Conexão com whatsapp business.
